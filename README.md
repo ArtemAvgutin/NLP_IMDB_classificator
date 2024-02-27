@@ -1,4 +1,4 @@
-# NLP-IMDB-classificator
+# NLP_IMDB_classificator
 ## Binary classification project. Determining positive and negative movie reviews.
 ## Задача бинарной классификации. Определение положительных и отрицательных отзывов на фильмы.
 <p align="center">
