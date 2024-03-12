@@ -10,14 +10,20 @@
 Create your own neural network and LSTM using vector representations and one hot encoding to determine the sentiment of movie reviews
 * Result:
 Neural networks were created with a sentiment determination accuracy of ~83% and ~85%, respectively.
+* Technology stack:
+matplotlib, numpy, tensorflow, keras
 
 ## About (Rus)
 * Цель:
-Создать собственную нейронную сеть и LSTM с использованием векторных представлений и one hot encoding для определения тональности отзывов на фильмы
+Создать собственную нейронную сеть и сеть LSTM с использованием векторных представлений и one hot encoding для определения тональности отзывов на фильмы
 * Результат:
 Созданы нейронные сети с точностью определения тональности ~83% и ~85% соответсвенно.
+* Стек технологий:
+matplotlib, numpy, tensorflow, keras
 
 # Немного информации о проекте
+[Взят датасет imdb с сайта стэнфордского университета](https://ai.stanford.edu/~amaas/data/sentiment/)
+
 Отзывы делятся на:
 * положительные (оценка >= 7) 1 - отзыв положительные (25000 тыс.)
 * отрицательные (оценка <= 4) 0 - отзыв отрицательные (25000 тыс.)
@@ -32,6 +38,8 @@ Neural networks were created with a sentiment determination accuracy of ~83% and
 Была использована токенизация текста, чтобы мы могли расшифровать любой отзыв и найти любое слово по индексу.
 Также использовалось плотное векторное прелставление и его визуализация по которым можно определять эмоциональную окраску текста.
 # Some info about project
+[Imdb dataset taken from the Stanford University website](https://ai.stanford.edu/~amaas/data/sentiment/)
+
 Reviews are divided into:
 * positive (score >= 7) 1 - positive review (25,000)
 * negative (score <= 4) 0 - negative review (25,000)
